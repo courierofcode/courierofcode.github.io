@@ -403,6 +403,15 @@ html[light-mode="dark"] .github-icon{
         y:0.5px;
     }
   }
+  /*
+  --------------------------
+     RESUME MICROANIMATION
+  --------------------------
+  */
+  html[light-mode="dark"] .resume-icon{
+    fill: #ffff;
+  }
+    
   
   @keyframes yellow-animation{
     0%{
