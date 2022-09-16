@@ -101,7 +101,7 @@ const mentor = [
   {
     title: "HackUTA",
     subtitle: "Participant",
-    image: "assets/images/experience-page/HackUTA2022.png",
+    image: "assets/images/experience-page/HackUTA.png",
     desp: "HackUTA is a 48 hour long hackathon organized with an aim to enable students to create a project which empowers learning..",
     readmore: "https://www.hackuta.org/",
   },
