@@ -149,6 +149,7 @@ document.addEventListener("DOMContentLoaded", showCards1);
 
 /* Timeline Section*/
 
+
 $(function () {
   window.sr = ScrollReveal();
 
