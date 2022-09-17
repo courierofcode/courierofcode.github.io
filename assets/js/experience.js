@@ -94,14 +94,14 @@ const mentor = [
   {
     title: "UTA SCRF",
     subtitle: "OurCS@DFW Competitor",
-    image: "assets/images/experience-page/SCRFUTA.png",
+    image: "assets/images/experience-page/SCRFUTA21.png",
     desp: "UTA Student Computing Research Festival was a event where I Queried & Analyzed Video Contents in a team and presented our findings which secured us the runner-up spot.",
     readmore: "https://uta.engineering/scrf/presentations.php",
   },
   {
     title: "HackUTA",
     subtitle: "Participant",
-    image: "assets/images/experience-page/HackUTA.png",
+    image: "assets/images/experience-page/HackUTA22.png",
     desp: "HackUTA is a 48 hour long hackathon organized with an aim to enable students to create a project which empowers learning..",
     readmore: "https://www.hackuta.org/",
   },
