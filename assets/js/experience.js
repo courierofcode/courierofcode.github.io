@@ -105,6 +105,27 @@ const mentor = [
     desp: "HackUTA is a 48 hour long hackathon organized with an aim to enable students to create a project which empowers learning..",
     readmore: "https://www.hackuta.org/",
   },
+  {
+    title: "AmazonHealthAI",
+    subtitle: "Competitor",
+    image: "assets/images/experience-page/AmazonHealthAI.png",
+    desp: "",
+    readmore: "https://www.hackuta.org/",
+  },
+  {
+    title: "XRP NFT Launch Party",
+    subtitle: "Competitor",
+    image: "assets/images/experience-page/XRP.png",
+    desp: "",
+    readmore: "https://www.hackuta.org/",
+  },
+  {
+    title: "NEAR MetaBUILD III",
+    subtitle: "Competitor",
+    image: "assets/images/experience-page/NEAR.png",
+    desp: "",
+    readmore: "https://www.hackuta.org/",
+  },
 ];
 
 const showCards3 = () => {
@@ -114,7 +135,7 @@ const showCards3 = () => {
       (output += `  
       <div class="blog-slider__item swiper-slide">
         <div class="blog-slider__img">
-            <img src="${image}" alt="">
+            <img src="${image}" alt="" width="358" height"358">
         </div>
         <div class="blog-slider__content">
           <div class="blog-slider__title">${title}</div>
