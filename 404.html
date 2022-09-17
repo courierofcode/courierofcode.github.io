@@ -1,29 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Got Lost!</title>
+    <link rel="icon" href="assets/images/404icon.png" type="image/png">
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <!-- Robot.txt -->
     <meta name="robots" content="noindex,nofollow" />
-    <title>Got Lost!</title>
+
+    <!-- Open Graph for Social Media -->
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    
+    <!-- Font -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"/>
-    <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" type="text/css" href="assets/css/404.css" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M11CMZ12Q"></script>
+    
+    <!-- Google Tag Manager -->
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-M11CMZ12Q');
+      (function(w,d,s,l,i){
+          w[l]=w[l]||[];
+          w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+          var f=d.getElementsByTagName(s)[0], j=d.createElement(s), dl=l!='dataLayer'?'&l='+l:'';
+          j.async=true;
+          j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+          f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-T7NJFMD');
     </script>
+    <!-- End Google Tag Manager -->
   </head>
 
   <body>
-
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7NJFMD"
+          height="0" width="0" style="display:none;visibility:hidden">
+      </iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
     <!-- svg container starts -->
     <div class="container">
       <div class="row">
@@ -1203,7 +1221,7 @@
 
     <!-- back to home button -->
     <div class="backbtn">
-      <a href="index.html" class="btn">
+      <a href="/index.html" class="btn">
         <i class="fas fa-arrow-circle-left"></i><span> Go Back</span>
       </a>
     </div>
