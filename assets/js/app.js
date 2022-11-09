@@ -1,4 +1,3 @@
-
 "use strict";
 // Sweet Alert CDN through JS
 let script = document.createElement("script");
@@ -27,7 +26,7 @@ let header = $(`
    <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">Education</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="experience.html">Experience</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">Projects</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html">Research</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="/blogs.html">Blogs</a></li>
    <li class="nav-item">
    <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()" checked>
    </li>
@@ -130,8 +129,6 @@ let footer = $(`
               </svg>
           </div>
 
-
-
         <div class="col-lg-6 col-md-12 mb-4 mb-md-0 form-comtainer">
           <div class="form-style-6">
              <div class="form-header">
@@ -152,9 +149,6 @@ let footer = $(`
           </div>
         </div>
     </div>
-
-
-    
 
     <div class="rounded-social-buttons tag">
     <a class="social-button resume" href="/assets/docs/Farayibi,Emmanuel.pdf" target="_blank" download>
@@ -261,7 +255,6 @@ $(function () {
 });
 
 // function for toggling hamburger is-active class
-
 $(function () {
   $("#js-hamburger").on("click", function () {
     $(this).toggleClass("is-active");
@@ -269,7 +262,6 @@ $(function () {
 });
 
 // Navbar current page highlight
-
 let loader = document.querySelector(".loader-container");
 
 window.addEventListener("load", vanish);
@@ -286,7 +278,6 @@ $(function () {
 });
 
 //function to remove underline on hover
-
 $(document).ready(function () {
   $("a.nav-link").hover(
     function () {
