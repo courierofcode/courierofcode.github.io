@@ -74,6 +74,9 @@ html {
   object-fit: fill;
 }
 
+.s1 {
+  padding-bottom: 1px;
+}
 .s2 {
   overflow-x: hidden;
 }
@@ -348,7 +351,7 @@ p {
 }
 /* -----Education Timeline CSS----- */
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 html, body {
   overflow-x: hidden;
@@ -665,14 +668,14 @@ blockquote {
   .date1{
     padding: 1px;
   }
-                                                  /* Second  */
+  /* Second  */
   .timelineHeading2{
     font-size: 94%;
   }
   .date2{
     padding: 0px;
   }
-                                                     /* Third  */
+  /* Third  */
   .date3{
     padding: 4px;
   }
