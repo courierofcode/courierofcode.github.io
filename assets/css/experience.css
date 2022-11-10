@@ -29,7 +29,7 @@ html {
 @media (max-width: 766px) {
   .dropdown {
     position: absolute;
-    padding-right: 3.5rem;
+    padding-right: 1.5rem;
   }
   .godown {
     z-index: 1;
@@ -42,6 +42,9 @@ html {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: var(--txt-fill);
+}
+.center {
+  text-align: center;
 }
 
 section > div {
