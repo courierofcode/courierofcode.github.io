@@ -1,18 +1,17 @@
 AOS.init();
 
 // MOOCs Cards
-
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
     title: "Android University",
-    cardImage: "assets/images/education-page/codepath.png",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
+    cardImage: "/assets/images/education-page/codepath.png",
+    moocLink: "https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:2153200d-d18d-4e4d-9186-567e6512657d",
   },
   {
     title: "iOS University",
-    cardImage: "assets/images/education-page/codepath.png",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
+    cardImage: "/assets/images/education-page/codepath.png",
+    moocLink: "https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:dddf1256-0a82-41cd-a73a-5d849b6ee1cd",
   },
   {
     title: "CS50",
@@ -91,7 +90,7 @@ const showCards = () => {
   moocscards.forEach(
     ({ title, cardImage, moocLink }) =>
       (output += `        
-        <div class="col-6 col-md-3 col-sm-4 column" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600" >  
+        <div class="col-6 col-md-3 col-sm-4 column">  
             <div class="card mb-3 mx-auto">
                <div class="content">
                   <div class="content-overlay"></div>
@@ -137,7 +136,7 @@ const showCards1 = () => {
   badgesection.forEach(
     ({ title, image, description }) =>
       (output += `       
-      <div class="col-lg-4 col-md-6 p-2" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600"> 
+      <div class="col-lg-4 col-md-6 p-2"> 
         <img class="img-fluid d-block mb-3 mx-auto hvr-grow" src="${image}" alt="Card image cap" width="200">
           <div class="text-center font-weight-bolder" style="font-size: 1.3em;">${title}</div>
           <div class="text-center text-muted font-weight-bolder p-2">${description}</div>
