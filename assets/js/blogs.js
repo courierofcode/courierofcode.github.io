@@ -16,11 +16,9 @@ const research = [
       vancouver:
         "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu. A Batch Normalized Inference Network Keeps the KL Vanishing Away. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
     },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 1",
+    abstract: "https://raw.githubusercontent.com/courierofcode/courierofcode/main/README.md",
     absbox: "absPopup1",
   },
-
   {
     title: "A Call for More Rigor in Unsupervised Cross-lingual Learning",
     authors:
@@ -92,7 +90,7 @@ const fillData = () => {
       abstract,
     }) =>
       (output += `
-            <tr data-aos="zoom-in-left"> 
+            <tr > 
                 <td class="imgCol"><img src="${image}" class="rImg"></td>
                 <td class = "researchTitleName">
                     <div class="img-div">
@@ -119,8 +117,7 @@ const fillData = () => {
                     </div>
                     <div id="${absbox}" class="collapse" aria-labelledby="headingTwo" data-parent=".collapse">
                         <div class="card-body">
-                            ${abstract}    
-                        </div>
+                        ${abstract}                      
                     </div>
                     <div id="${citebox}" class="collapse" aria-labelledby="headingTwo" data-parent=".collapse">
                         <div class="card-body">
