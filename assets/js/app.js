@@ -316,6 +316,7 @@ function toggle_light_mode() {
   var app = document.getElementsByTagName("HTML")[0];
   var nav = document.getElementById("navbar");
   if (localStorage.lightMode == "dark") {
+    document.getElementById("profile-image").src = "/assets/images/casual_headshot_light.jpg";
     localStorage.lightMode = "light";
     app.setAttribute("light-mode", "light");
     nav.classList.remove("dark-theme");
@@ -325,6 +326,8 @@ function toggle_light_mode() {
     }
   } else {
     nav.classList.add("dark-theme");
+    document.getElementById("profile-image").src = "/assets/images/casual_headshot_dark.jpg";
+    
     localStorage.lightMode = "dark";
     app.setAttribute("light-mode", "dark");
     var sc = document.getElementsByClassName("socialicon");
