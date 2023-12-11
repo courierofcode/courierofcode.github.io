@@ -284,6 +284,16 @@ html[light-mode="dark"] .github-icon{
  
 /*
 --------------------------
+    DEVPOST MICROANIMATION
+--------------------------
+*/
+.devpost-icon{
+  width: 40px;
+  margin-left: 12px;
+}
+
+/*
+--------------------------
     RESUME MICROANIMATION
 --------------------------
 */
