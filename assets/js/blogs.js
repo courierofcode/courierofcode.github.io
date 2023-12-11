@@ -16,7 +16,7 @@ const research = [
       vancouver:
         "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu. A Batch Normalized Inference Network Keeps the KL Vanishing Away. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
     },
-    abstract: "https://raw.githubusercontent.com/courierofcode/courierofcode/main/README.md",
+    abstract: "This is currently left empty and this can be considered as a dummy data 1",
     absbox: "absPopup1",
   },
   {
