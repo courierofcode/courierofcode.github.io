@@ -5,18 +5,40 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Data Science Intern",
-    cardImage: "assets/images/experience-page/loopback.png",
+    title: "Systems Engineer",
+    cardImage: "assets/images/experience-page/USACE.png",
     place: "Dallas, Texas",
-    time: "(May, 21 - Aug, 21)",
-    desp: "<li>Implemented unsupervised ML for anomaly detection in on-site data for better process time.</li><li>Visualized models using Python to summarize findings during presentations.</li><li>Worked closely with clientele for a better understanding of requirements.</li>",
+    time: "(Dec, 22 - Dec, 23)",
+    desp: "<li>Designed & implemented scalable web & mobile apps using Kubernetes and Terraform while logging data.</li>\
+    <li>Utilized Prometheus & Grafana to visualize traffic bottlenecks from log data & implemented load balancers.</li>\
+    <li>Implemented CI/CD pipelines with Ansible, UCB, and Jenkins to automate software testing & deployment.</li>\
+    <li>Designed & developed 3D world simulator UI modeled after USACE water & power control objectives.</li>\
+    <li>Deployed world simulator to the web according to accessibility requirements using the React framework.</li>",
   },
   {
-    title: "Software Engineer Intern",
-    cardImage: "assets/images/experience-page/MATLAB.png",
-    place: "Remote",
-    time: "(May, 20 - Aug, 20)",
-    desp: "<li> Utilized MATLAB & C++ to identify cost-effective pandemic intervention strategies.</li><li>Presented findings to subdivision lead after writing an executive summary with value proposition.</li><li>Improved team productivity by writing secure Python scripts to automate repetitive background tasks.</li>",
+    title: "OIT & CX Associate",
+    cardImage: "assets/images/experience-page/UTA.png",
+    place: "Arlington, Texas",
+    time: "(Aug, 20 - Aug, 22)",
+    desp: "<li>Architected and implemented a test plan for Linux server migration to AWS ensuring minimal downtime.</li>\
+    <li>Installed, and maintained IT hardware and software, including OSs & apps with Intune & MS group policy.</li>\
+    <li>Provided on-call technical support to customers, including troubleshooting hardware & software lab issues.</li>",
+  },
+  {
+    title: "AV Supervisor",
+    cardImage: "assets/images/experience-page/UTA.png",
+    place: "Arlington, Texas",
+    time: "(Jul, 19 - May, 20)",
+    desp: "<li>Represented UTA professionally in high-stress environments, implementing new event configurations daily.</li>\
+    <li>Led teams to set up seating, audio, and visual equipment for university in & outdoor events and workshops.</li>\
+    <li>Dynamically allocated compute resources for both internal and external campus events, prioritizing internal.</li>",
+  },
+  {
+    title: "AV Technician",
+    cardImage: "assets/images/experience-page/UTA.png",
+    place: "Arlington, Texas",
+    time: "(Feb, 19 - Jul, 19)",
+    desp: "<li>Learned quickly how to program sound & light boards, adapting a mindset of lifelong learning.</li>",
   },
 ];
 
@@ -96,52 +118,52 @@ const mentor = [
     subtitle: "OurCS@DFW Competitor",
     image: "assets/images/experience-page/SCRFUTA21.png",
     desp: "UTA Student Computing Research Festival was a event where I Queried & Analyzed Video Contents in a team and presented our findings which secured us the runner-up spot.",
-    readmore: "https://uta.engineering/scrf/presentations.php",
+    href: "https://uta.engineering/scrf/presentations.php",
   },
   {
     title: "HackUTA",
     subtitle: "Participant",
     image: "assets/images/experience-page/HackUTA22.png",
     desp: "HackUTA is a 48 hour long hackathon organized with an aim to enable students to create a project which empowers learning..",
-    readmore: "https://www.hackuta.org/",
+    href: "https://www.hackuta.org/",
   },
   {
     title: "AmazonHealthAI",
     subtitle: "Competitor",
     image: "assets/images/experience-page/AmazonHealthAI.png",
     desp: "",
-    readmore: "https://www.hackuta.org/",
+    href: "https://www.hackuta.org/",
   },
   {
     title: "XRP NFT Launch Party",
     subtitle: "Competitor",
     image: "assets/images/experience-page/XRP.png",
     desp: "",
-    readmore: "https://www.hackuta.org/",
+    href: "https://www.hackuta.org/",
   },
   {
     title: "NEAR MetaBUILD III",
     subtitle: "Competitor",
     image: "assets/images/experience-page/NEAR.png",
     desp: "",
-    readmore: "https://www.hackuta.org/",
+    href: "https://www.hackuta.org/",
   },
 ];
 
 const showCards3 = () => {
   let output = "";
   mentor.forEach(
-    ({ title, image, subtitle, desp, readmore }) =>
+    ({ title, image, subtitle, desp, href }) =>
       (output += `  
       <div class="blog-slider__item swiper-slide">
         <div class="blog-slider__img">
-            <img src="${image}" alt="" width="358" height"358">
+            <img src="${image}" alt="">
         </div>
         <div class="blog-slider__content">
           <div class="blog-slider__title">${title}</div>
           <span class="blog-slider__code">${subtitle}</span>
           <div class="blog-slider__text">${desp}</div>
-          <a href="${readmore}" class="blog-slider__button">Read More</a>   
+          <a href="${href}" class="blog-slider__button">Read More</a>   
         </div>
       </div>
       `)
