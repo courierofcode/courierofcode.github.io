@@ -316,7 +316,7 @@ input[type="text"] {
 }
 
 .skill-card {
-  width: 300px;
+  width: 350px;
   border: 0;
   border-radius: 10px;
 }
@@ -495,7 +495,7 @@ ul {
     font-size: 2rem;
   }
   .skill-card {
-    width: 450px;
+    width: 350px;
     border: 0;
     border-radius: 10px;
   }
@@ -514,13 +514,13 @@ ul {
 
 @media only screen and (max-width: 767px) {
   .project-box {
-    margin-top: 18rem;
+    margin-top: 3rem;
   }
 }
 
 @media only screen and (max-width: 450px) {
   .project-box {
-    margin-top: 18rem;
+    margin-top: 3rem;
   }
 }
 
