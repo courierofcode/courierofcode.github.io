@@ -129,6 +129,26 @@ const badgesection = [
     image: "assets/images/education-page/badge3.png",
     description: "Earned July 20, 2020",
   },
+  {
+    title: "AWS Cloud Solutions Architect",
+    image: "assets/images/education-page/badge4.png",
+    description: "Earned Dec 14, 2023",
+  },
+  {
+    title: "Google Cloud Data Engineer",
+    image: "assets/images/education-page/badge5.png",
+    description: "Earned Dec 14, 2023",
+  },
+  {
+    title: "Google Cloud Security Engineer",
+    image: "assets/images/education-page/badge6.png",
+    description: "Earned Dec 14, 2023",
+  },
+  {
+    title: "CompTIA Security+",
+    image: "assets/images/education-page/badge7.png",
+    description: "Earned Dec 14, 2023",
+  },
 ];
 
 const showCards1 = () => {

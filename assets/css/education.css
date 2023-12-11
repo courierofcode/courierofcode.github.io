@@ -542,7 +542,7 @@ blockquote {
 
 .date {
   background: #3F51B5;
-  border-radius: 13px;
+  border-radius: 10px;
   display: inline-block;
   color: #FFFFFF;
   padding: 10px;
@@ -666,7 +666,7 @@ blockquote {
    font-weight: bold;
   }
   .date1{
-    padding: 1px;
+    padding: 1.5px;
   }
   /* Second  */
   .timelineHeading2{
