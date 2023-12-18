@@ -6,6 +6,15 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
+    title: "Event Planner",
+    cardImage: "assets/images/project-page/event-planner.jpg",
+    description: "An event planner app developed using flutter + firebase",
+    tagimg: "<li><img src=\"/assets/images/project-page/tech-stack/flutter.png\" height=\"25\" width=\"25\" style=\"vertical-align: bottom\"></li>\
+             <li><img src=\"/assets/images/project-page/tech-stack/firebase.png\" height=\"25\" width=\"25\" style=\"vertical-align: bottom\"></li>",
+    Previewlink: "https://courierofcode.github.io/EventPlanner/web/",
+    Githublink: "https://github.com/courierofcode/EventPlanner",
+  },
+  {
     title: "Quiz App",
     cardImage: "assets/images/project-page/quiz.jpg",
     description: "A quiz app built using basic react.",
