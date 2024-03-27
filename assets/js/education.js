@@ -130,26 +130,48 @@ const badgesection = [
     description: "Earned July 20, 2020",
   },
   {
+    title: "AWS Cloud Architect",
+    image: "assets/images/education-page/badge-ACA.png",
+    description: "Earned Feb 7, 2024",
+  },
+  {
     title: "Terraform Certified Associate",
     image: "assets/images/education-page/badge-TCA.png",
     description: "Earned Jan 7, 2023",
   },
   {
-    title: "CompTIA Security+",
-    image: "assets/images/education-page/badge7.png",
-    description: "Earned Feb 2, 2023",
+    title: "Google Cloud Architect",
+    image: "assets/images/education-page/badge-GCA.png",
+    description: "Earned Apr 7, 2024",
   },
+  
+  // Future Badge Placement 
+
   // {
-  //   title: "AWS Cloud Solutions Architect",
+  //   title: "AWS Cloud Architect",
   //   image: "assets/images/education-page/badge-ACA.png",
   //   description: "Earned Feb 7, 2024",
   // },
   // {
-  //   title: "Google Cloud Professional Cloud Architect",
-  //   image: "assets/images/education-page/badge-GCA.png",
+  //   title: "Azure Solutions Architect",
+  //   image: "assets/images/education-page/badge-ASA.png",
   //   description: "Earned Mar 7, 2024",
   // },
-  
+  // {
+  //   title: "Google Cloud Architect",
+  //   image: "assets/images/education-page/badge-GCA.png",
+  //   description: "Earned Apr 7, 2024",
+  // },
+  // {
+  //   title: "Terraform Certified Associate",
+  //   image: "assets/images/education-page/badge-TCA.png",
+  //   description: "Earned Jan 7, 2023",
+  // },
+  // {
+  //   title: "CompTIA Security+",
+  //   image: "assets/images/education-page/badge-Sec.png",
+  //   description: "Earned Feb 7, 2023",
+  // },
 ];
 
 const showCards1 = () => {

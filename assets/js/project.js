@@ -11,7 +11,7 @@ const projects = [
     description: "An event planner app developed using flutter + firebase",
     tagimg: "<li><img src=\"/assets/images/project-page/tech-stack/flutter.png\" height=\"25\" width=\"25\" style=\"vertical-align: bottom\"></li>\
              <li><img src=\"/assets/images/project-page/tech-stack/firebase.png\" height=\"25\" width=\"25\" style=\"vertical-align: bottom\"></li>",
-    Previewlink: "https://courierofcode.github.io/EventPlanner/web/",
+    Previewlink: "hhttps://github.com/courierofcode/EventPlanner",
     Githublink: "https://github.com/courierofcode/EventPlanner",
   },
   {
@@ -22,14 +22,14 @@ const projects = [
     Previewlink: "https://courierofcode.github.io/blogs/",
     Githublink: "https://github.com/courierofcode/",
   },
-  {
-    title: "Chess AI",
-    cardImage: "assets/images/project-page/chess.jpg",
-    description: "A chess engine for a popular game dev engine.",
-    tagimg: "<li><img src=\"/assets/images/project-page/tech-stack/Tensor.png\" height=\"25\" width=\"25\" style=\"vertical-align: bottom\"></li>",
-    Previewlink: "https://courierofcode.github.io/blogs/",
-    Githublink: "https://github.com/courierofcode/",
-  },
+  // {
+  //   title: "Chess AI",
+  //   cardImage: "assets/images/project-page/chess.jpg",
+  //   description: "A chess engine for a popular game dev engine.",
+  //   tagimg: "<li><img src=\"/assets/images/project-page/tech-stack/Tensor.png\" height=\"25\" width=\"25\" style=\"vertical-align: bottom\"></li>",
+  //   Previewlink: "https://courierofcode.github.io/blogs/",
+  //   Githublink: "https://github.com/courierofcode/",
+  // },
   {
     title: "Flappy Bird",
     cardImage: "assets/images/project-page/flappybird.png",
