@@ -1,6 +1,14 @@
 AOS.init();
 
-//  Work experience cards
+/*  Work experience cards
+
+    title: "Job Title",
+    cardImage: "assets/images/experience-page/job.png",
+    place: "Job Location",
+    time: "(Start - End)",
+    desp: "<li>Sample Job Responsibility A</li>\
+           <li>Sample Job Responsibility B</li>",
+*/
 
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
@@ -8,37 +16,36 @@ const exp = [
     title: "Systems Engineer",
     cardImage: "assets/images/experience-page/USACE.png",
     place: "Dallas, Texas",
-    time: "(Dec, 22 - Dec, 23)",
-    desp: "<li>Designed & implemented scalable web & mobile apps using Kubernetes and Terraform while logging data.</li>\
-    <li>Utilized Prometheus & Grafana to visualize traffic bottlenecks from log data & implemented load balancers.</li>\
-    <li>Implemented CI/CD pipelines with Ansible, UCB, and Jenkins to automate software testing & deployment.</li>\
-    <li>Designed & developed 3D world simulator UI modeled after USACE water & power control objectives.</li>\
-    <li>Deployed world simulator to the web according to accessibility requirements using the React framework.</li>",
+    time: "(Dec, 22 - Feb, 24)",
+    desp: "",
   },
   {
-    title: "OIT & CX Associate",
+    title: "Software Engineer",
+    cardImage: "assets/images/experience-page/USACE.png",
+    place: "Dallas, Texas",
+    time: "(Aug, 22 - Dec, 22)",
+    desp: "",
+  },
+  {
+    title: "OIT DevOps & CX Associate",
     cardImage: "assets/images/experience-page/UTA.png",
     place: "Arlington, Texas",
     time: "(Aug, 20 - Aug, 22)",
-    desp: "<li>Architected and implemented a test plan for Linux server migration to AWS ensuring minimal downtime.</li>\
-    <li>Installed, and maintained IT hardware and software, including OSs & apps with Intune & MS group policy.</li>\
-    <li>Provided on-call technical support to customers, including troubleshooting hardware & software lab issues.</li>",
+    desp: "",
   },
   {
     title: "AV Supervisor",
     cardImage: "assets/images/experience-page/UTA.png",
     place: "Arlington, Texas",
     time: "(Jul, 19 - May, 20)",
-    desp: "<li>Represented UTA professionally in high-stress environments, implementing new event configurations daily.</li>\
-    <li>Led teams to set up seating, audio, and visual equipment for university in & outdoor events and workshops.</li>\
-    <li>Dynamically allocated compute resources for both internal and external campus events, prioritizing internal.</li>",
+    desp: "",
   },
   {
     title: "AV Technician",
     cardImage: "assets/images/experience-page/UTA.png",
     place: "Arlington, Texas",
     time: "(Feb, 19 - Jul, 19)",
-    desp: "<li>Learned quickly how to program sound & light boards, adapting a mindset of lifelong learning.</li>",
+    desp: "",
   },
 ];
 
